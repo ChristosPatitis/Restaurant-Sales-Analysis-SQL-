@@ -3,7 +3,8 @@
 ## Overview
 This project explores restaurant order data using SQL to better understand sales patterns, customer behavior, and seasonal trends.  
 
-The goal was to take raw data and turn it into useful insights about how the restaurant’s sales are performing.
+The goal was to take raw data and turn it into useful insights about how the restaurant’s sales are doing.
+
 ---
 
 ## Dataset
@@ -48,6 +49,15 @@ The analysis focused on answering practical business questions:
 - Salads and desserts generate lower revenue  
 - Holiday periods (December–January) show increased sales  
 
+
 ---
 
-## Project Structure
+## How to Run
+1. Open restaurant_db.sqlite in DBeaver (or any SQLite tool)  
+2. Open analysis.sql  
+3. Run the queries step by step  
+
+---
+
+## Author
+Christos Patitis
