@@ -3,8 +3,7 @@
 ## Overview
 This project explores restaurant order data using SQL to better understand sales patterns, customer behavior, and seasonal trends.  
 
-The goal was to take raw transactional data and turn it into meaningful insights that could help with decision-making, such as staffing, promotions, and menu optimization.
-
+The goal was to take raw data and turn it into useful insights about how the restaurant’s sales are performing.
 ---
 
 ## Dataset
