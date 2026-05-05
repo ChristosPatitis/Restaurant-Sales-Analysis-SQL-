@@ -1,63 +1,63 @@
 # Restaurant Sales Analysis (SQL)
 
 ## Overview
-This project explores restaurant order data using SQL to better understand sales patterns, customer behavior, and seasonal trends.  
+SQL business analysis of restaurant order data to identify revenue drivers, peak ordering times, low-performing menu items, and seasonal sales patterns.
 
-The goal was to take raw data and turn it into useful insights about how the restaurant’s sales are doing.
+This project connects directly to my hospitality background and focuses on turning raw restaurant sales data into practical business insights for menu planning, staffing, and promotion strategy.
 
----
+## Business Questions
+- Which food items are ordered most often?
+- Which categories generate the most revenue?
+- Which days and weeks perform best?
+- What are the busiest hours of the day?
+- Which items contribute the least revenue?
+- How do holidays affect sales?
 
 ## Dataset
-The dataset includes the following fields:
+The dataset includes restaurant order information such as:
 
-- Order_ID – unique identifier for each order  
-- Customer Name – name of the customer  
-- Food Item – item ordered  
-- Category – type of item (e.g. Main, Beverage, Dessert)  
-- Quantity – number of items ordered  
-- Price – total price  
-- Payment Method – payment type  
-- Order Time – timestamp of the order  
-
----
+- Order ID
+- Customer name
+- Food item
+- Category
+- Quantity
+- Price
+- Payment method
+- Order time
 
 ## Tools Used
-- SQLite  
-- DBeaver  
-- SQL  
-- Git & GitHub  
-
----
+- SQL
+- SQLite
+- DBeaver
+- Git & GitHub
 
 ## Analysis Performed
-The analysis focused on answering practical business questions:
+Using SQL, I analyzed:
 
-- What are the most popular food items?  
-- Which categories generate the most revenue?  
-- Which days of the week perform best?  
-- Which weeks show peak sales activity?  
-- What are the busiest hours of the day?  
-- Which items contribute the least revenue?  
-- How do holidays affect sales?  
-
----
+- Revenue by food category
+- Best-selling and lowest-performing items
+- Daily and weekly sales trends
+- Peak ordering hours
+- Holiday sales patterns
+- Payment method distribution
 
 ## Key Insights
-- Weekends (Friday & Saturday) generate the highest revenue  
-- Lunch (12–2 PM) and dinner (6–8 PM) are peak ordering times  
-- Main dishes contribute the majority of revenue  
-- Salads and desserts generate lower revenue  
-- Holiday periods (December–January) show increased sales  
+- Friday and Saturday generated the highest revenue, suggesting stronger weekend demand.
+- Lunch hours between 12:00–14:00 and dinner hours between 18:00–20:00 were the busiest ordering periods.
+- Main dishes contributed the majority of total revenue.
+- Salads and desserts generated lower revenue, showing potential areas for menu improvement or targeted promotions.
+- December and January showed increased sales activity, likely connected to holiday demand.
 
-
----
+## Business Recommendations
+- Increase staff coverage during lunch, dinner, Fridays, and Saturdays.
+- Promote lower-performing categories such as salads and desserts through bundles or limited-time offers.
+- Prioritize inventory planning for main dishes because they drive most revenue.
+- Use holiday periods for special menus or promotional campaigns.
 
 ## How to Run
-1. Open restaurant_db.sqlite in DBeaver (or any SQLite tool)  
-2. Open analysis.sql  
-3. Run the queries step by step  
-
----
+1. Open `restaurant_db.sqlite` in DBeaver or another SQLite tool.
+2. Open `analysis.sql`.
+3. Run the queries step by step.
 
 ## Author
 Christos Patitis
